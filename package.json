@@ -1,0 +1,52 @@
+{
+  "name": "loop-training-api",
+  "version": "1.0.0",
+  "description": "Support Loop Training Interface",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swift-Logistics/LOOP-Training-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swift-Logistics/LOOP-Training-API/issues"
+  },
+  "homepage": "https://github.com/Swift-Logistics/LOOP-Training-API#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.0.1",
+    "@swiftlogistics/activedirectorypackage": "^1.0.1",
+    "@swiftlogistics/circular-error-fix": "0.0.1",
+    "@swiftlogistics/winston-express-custom": "^0.1.0",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "cookie-parser": "^1.4.4",
+    "cron": "^1.8.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.1",
+    "multer": "^1.4.2",
+    "node-pre-gyp": "^0.13.0",
+    "nodemailer": "^6.1.1",
+    "pdf-lib": "^1.0.0",
+    "pdfkit": "^0.9.0",
+    "python": "0.0.4",
+    "socket.io": "^2.3.0",
+    "stream-buffers": "^3.0.2",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  }
+}
