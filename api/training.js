@@ -4,6 +4,6 @@ const { test } = require('./controllers');
 // ENDPOINTS
 //
 // check email is available
-router.post('/test', test.test);
+router.get('/test', test.test);
 
 module.exports = router;
